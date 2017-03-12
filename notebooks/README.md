@@ -4,6 +4,12 @@ This project aims to set up a simple environment for data exploration with Spark
 
 ## AWS
 
+Create an Analytics/EMR cluster. Keep in mind that the VM setting `m3.2xlarge` is 8 cores, 26ECU, 32GB RAM and the unit costs less than $0.50 per hour.
+
+Ensure Spark and Zeppelin are enabled. 
+
+Edit the security groups so that slaves and master can be SSHd (inbound connection).
+
 From the master node:
 
 ```
