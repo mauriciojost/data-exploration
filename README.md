@@ -1,6 +1,6 @@
 # README
 
-This project aims to set up a simple environment for data exploration with Spark.
+This project aims to set up a simple environment for data exploration with Spark, either in local mode (via _Docker_) or on the cloud (multi node configuration via _AWS_).
 
 ## INFRASTRUCTURE 
 
@@ -16,9 +16,9 @@ From the master node:
 
 ```
 sudo yum install git
-git clone https://github.com/mauriciojost/data-exploration.git
-cd data-exploration
-hdfs dfs -put notebooks/datasets/ /
+git clone https://github.com/mauriciojost/spark-data-exploration-notebook.git
+cd spark-data-exploration-notebook
+hdfs dfs -put datasets/ /
 hdfs dfs -ls /
 ```
 
