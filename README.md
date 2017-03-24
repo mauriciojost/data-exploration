@@ -35,7 +35,7 @@ hdfs dfs -ls /
 
 **Zeppelin will be available at: http://masterip:8890**
 
-## ZEPPELIN 
+## Create notebooks and explore data
 
 From Zeppelin: 
 
