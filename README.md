@@ -13,7 +13,7 @@ cd docker
 bash run.bash
 ```
 
-**Zeppelin will be available at: http://localhot:8080**
+**Zeppelin will be available at: http://localhost:8080**
 
 ### Use the cloud (AWS)
 
@@ -33,7 +33,7 @@ hdfs dfs -put datasets/ /
 hdfs dfs -ls /
 ```
 
-**Zeppelin will be available at: http://<masterip>:8890**
+**Zeppelin will be available at: http://masterip:8890**
 
 ## ZEPPELIN 
 
