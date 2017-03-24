@@ -4,6 +4,11 @@ This project aims to set up a simple environment for data exploration with Spark
 
 ## Set up the infrastructure 
 
+As infrastructure for your data exploration you can either use:
+
+- your own computer (via _Docker_)
+- a cloud service (via _AWS_)
+
 ### Use your workstation (Docker)
 
 To create an environment in a Docker container you can execute: 
